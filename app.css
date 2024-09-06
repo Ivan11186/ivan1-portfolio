@@ -1,0 +1,405 @@
+.first {
+  border: 2px;
+  display: block;
+  background: fixed;
+  background-color: rgb(23, 23, 92);
+  margin: auto;
+}
+
+body {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.first img {
+  display: inline-block;
+  width: 4%;
+  margin-right: 80%;
+}
+.first nav {
+  display: inline-block;
+}
+.first li {
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  border: solid black 1px;
+  width: 20px;
+}
+
+.first a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.medium {
+  text-align: center;
+  border: 2px;
+  display: block;
+  background: fixed;
+  background-color: black;
+  margin: auto;
+}
+.medium nav {
+  display: inline-block;
+}
+.medium h2 {
+  text-align: center;
+  color: beige;
+}
+.latest nav {
+  display: inline-block;
+}
+.latest {
+  border: 2px;
+  display: block;
+  background: local;
+  background-color: rgb(23, 23, 92);
+  margin: auto;
+}
+.latest h1 {
+  text-align: center;
+  color: beige;
+}
+/*main*/
+
+.discribe1 {
+  display: block;
+  border-bottom: 1px black solid;
+  width: 45%;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+.discribe1 td,
+tr {
+  padding-bottom: 45px;
+  padding-left: 30px;
+}
+.discribe1 img {
+  width: 350px;
+}
+.discribe h2 {
+  margin-top: 2%;
+  margin-left: 6%;
+}
+
+.discribe a {
+  border: black solid 2px;
+  background-color: black;
+  color: beige;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0%;
+}
+.disc1 {
+  border-bottom: 1px solid black;
+
+  display: inline-block;
+  margin-left: 45px;
+  width: 350px;
+}
+
+.disc1 td,
+tr {
+  width: 350px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 14px;
+}
+.disc12 {
+  padding-left: 140px;
+}
+#parag {
+  padding-left: 30px;
+}
+#oldpost {
+  background-color: snow;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid black 1px;
+  margin-top: 20px;
+  margin-left: 50%;
+  padding: 10px;
+}
+.oldpost1 {
+  width: 95%;
+  margin-top: 20px;
+}
+/*aside*/
+.hero {
+  width: 18%;
+  max-width: 350px;
+  min-width: 100px;
+
+  max-height: 600px;
+  min-height: 100px;
+  border: black groove 2px;
+  border-radius: 20px;
+  background-color: rgb(23, 23, 92);
+  text-align: start;
+  float: inline-end;
+  margin-right: 40px;
+  margin-top: 2%;
+  color: beige;
+  padding: 20px;
+  padding-right: 10px;
+  list-style: none;
+}
+.hero2 ul li {
+  display: inline-block;
+}
+.hero2 ul a {
+  width: 100%;
+  text-decoration: none;
+}
+.hero a {
+  font-size: small;
+  display: inline-block;
+  text-align: start;
+  color: azure;
+
+  padding-right: 40%;
+}
+#red {
+  color: red;
+}
+#bold {
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+#xsmall {
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: xx-small;
+}
+#hero1 {
+  text-align: start;
+  display: inline-block;
+  margin-left: 4%;
+}
+.herosearch {
+  display: inline;
+  background-color: snow;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 20px;
+
+  width: 80%;
+}
+
+/*foot*/
+.firstfooter {
+  margin-left: 14%;
+  font-family: sans-serif;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+#firstfooter {
+  margin-left: 14%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+#firstfoot {
+  margin-left: 14%;
+  font-family: sans-serif;
+  margin-bottom: 4%;
+}
+.lastfooter {
+  background-color: black;
+  color: beige;
+  border: black solid 2px;
+}
+.lastfooter nav {
+  display: inline-block;
+}
+.lastfooter li {
+  display: inline-block;
+  list-style: none;
+  width: 12px;
+  border: solid black 2px;
+  background-color: azure;
+  color: black;
+}
+.lastfooter li a {
+  text-decoration: none;
+}
+#latestfoot {
+  display: inline-block;
+  font-size: xx-small;
+  margin-right: 38%;
+  margin-left: 38%;
+}
+.footertable {
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+  border: solid black 1px;
+}
+.footertable tr,
+td {
+  padding: 60px;
+}
+.footertable a {
+  text-decoration: underline;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  color: black;
+}
+/*second page*/
+.images td,
+tr {
+  margin: 60px;
+  padding-bottom: 14px;
+}
+.images img {
+  width: 350px;
+  margin-left: 12px;
+  margin-top: 14px;
+}
+
+.pcontainer p {
+  display: inline-block;
+  padding-top: 1%;
+}
+
+.table1 tr td {
+  padding-left: 4%;
+  text-align: center;
+}
+.table1 img {
+  width: 350px;
+}
+.pcontainer p {
+  margin-right: 20%;
+  padding-right: 0;
+}
+.table2 tr img {
+  width: 200px;
+  margin-right: 150px;
+  margin-left: 0;
+}
+.pcontainer tr,
+td {
+  padding: 0;
+}
+.pcontainer li {
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+#learnmor p {
+  border: white solid 1px;
+  width: 100%;
+  padding-bottom: 80%;
+}
+.discfooter {
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  width: 70%;
+}
+.discfooter tr td {
+  padding-top: 600px;
+  padding-left: 0px;
+  padding-bottom: 0;
+  padding-right: 362px;
+}
+.hr1 {
+  width: 60%;
+  float: left;
+}
+.discfooter2 tr td {
+  padding-bottom: 0;
+}
+
+.discfooter2 {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.discfooter2 span {
+  color: black;
+  font-weight: bolder;
+}
+.discfooter3 {
+  display: block;
+  margin-left: 20px;
+
+  padding-top: 0;
+  margin-top: 0;
+}
+.discfooter3 span {
+  color: black;
+  font-weight: bolder;
+}
+.discfooter3 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.discfooter3 a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tagsfooter {
+  border: 1px solid black;
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.tagsimage {
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: beige;
+}
+.tagsimage h3 {
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+}
+.tagsimage img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -18px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.tagsanchor {
+  display: inline-block;
+  width: 30%;
+  margin-left: 290px;
+  padding-left: 148px;
+}
+
+#anchorborder {
+  border-right: 1px solid black;
+  padding-right: 8px;
+}
+#tagsfooterparag {
+  text-align: center;
+}
+.last-footer-anchor {
+  width: 70%;
+}
+.last-footer-anchor tr td {
+  width: 30%;
+  padding-top: 0;
+  padding-right: 14rem;
+  margin-left: 0;
+}
+#footer-anchor {
+  padding-left: 26rem;
+  padding-right: 0;
+}
+.last-footer-anchor hr {
+  width: 120%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
